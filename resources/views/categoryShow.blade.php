@@ -17,7 +17,7 @@
                     @forelse  ( $category->announcements as $announcement)
                    @if ($announcement->is_accepted)
                    <div class="col-12 col-md-6 col-lg-4 my-4">
-                    <div class="card shadow-mrk mx-auto"  data-aos="zoom-in-down" data-aos-duration="800" style="width: 18rem;">
+                    <div class="card shadow-mrk mx-auto h-100"  data-aos="zoom-in-down" data-aos-duration="300" style="width: 18rem;">
                         <img src="{{!$announcement->images()->get()->isEmpty() ? $announcement->images()->first()->getUrl(400,300) : 'https://picsum.photos/400/300'}}" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">{{$announcement->title}}</h5>

@@ -49,7 +49,7 @@
                 <div class="row">
                     @foreach ($announcements as $announcement)
                     <div class="col-12 col-md-6 col-lg-4 my-4">
-                        <div class="card mx-auto shadow-mrk" data-aos="zoom-in-down" data-aos-duration="800" style="width: 18rem;">
+                        <div class="card mx-auto shadow-mrk h-100" data-aos="zoom-in"  data-aos-duration="300" style="width: 18rem;">
                             <img src="{{!$announcement->images()->get()->isEmpty() ? $announcement->images()->first()->getUrl(400,300) : 'https://picsum.photos/400/300'}}" class="card-img-top" alt="...">
                             <div class="card-body " >
                               <h5 class="card-title title-dimension overflow-hidden" >{{$announcement->title}}</h5>

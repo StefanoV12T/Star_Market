@@ -147,7 +147,7 @@ aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle 
                         {{__('ui.changeLanguage')}}
                     </a>
                     <ul class="dropdown-menu rounded-0 bg-dark m-0" aria-labelledby="categoriesDropdown">
-                        <li class="nav-link nav-item ">
+                        {{-- <li class="nav-link nav-item ">
                             <x-_locale lang="it"/> 
                             <form action="{{route('set_language_locale', ['lang'=>'it'])}}" class="d-inline px-0 m-0" method="POST">
    
@@ -176,7 +176,8 @@ aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle 
                                      English
                                   </button>
                                   </form>
-                        </li>
+                        </li> --}}
+                        <livewire:language/>
                     </ul>
                 </li>
         </div>
