@@ -21,4 +21,17 @@ class Language extends Component
         // redirect('#');
         $this->emit('paginaAggiornata');
     }
+
+    public function setItalian(){
+        $this->lang='it';
+        $this->changeLanguage();
+    }
+    public function setEnglish(){
+        $this->lang='en';
+        $this->changeLanguage();
+    }
+    public function setSpanish(){
+        $this->lang='es';
+        $this->changeLanguage();
+    }
 }

@@ -43,6 +43,6 @@ Route::get('/rendi/revisore/{user}',[RevisorController::class,'makeRevisor'])->n
 //ricerca annuncio
 Route::get('/ricerca/annuncio',[FrontController::class,'searchAnnouncements'])->name('announcements.search');
 
-//cambio lingua
 
+//cambio lingua, tramite controller, bug facendo cambia lingua quando si richiama un annuncio in revisione. Bug risolto con livewire
 // Route::post('/{lang}', [FrontController::class, 'setLanguage'])->name('set_language_locale');
