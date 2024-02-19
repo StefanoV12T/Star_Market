@@ -1,0 +1,16 @@
+{
+  "public/media/sfondo/sfondo.jfif": {
+    "file": "assets/sfondo-b3aa0d1e.jfif",
+    "src": "public/media/sfondo/sfondo.jfif"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-34709769.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-f96ad7cb.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
